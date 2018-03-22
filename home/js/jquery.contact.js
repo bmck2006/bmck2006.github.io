@@ -9,8 +9,9 @@
 		$("#message").slideUp(750,function() {
 		$('#message').hide();
 
- 		$('#submit')
-			.before('<img src="images/ajax-loader.gif" class="contact-loader" />')
+		 $('#submit')
+			.before('Currently unavailable. Please use the email link to the left')
+			//.before('<img src="images/ajax-loader.gif" class="contact-loader" />')
 			.attr('disabled','disabled');
 
 		$.post(action, {
