@@ -10,7 +10,7 @@
 		$('#message').hide();
 
 		 $('#submit')
-			.before('Currently unavailable. Please use the email link to the left')
+			.before('<p>Currently unavailable. Please use the email link to the left</p>')
 			//.before('<img src="images/ajax-loader.gif" class="contact-loader" />')
 			.attr('disabled','disabled');
 
