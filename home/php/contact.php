@@ -22,6 +22,9 @@ if(trim($name) == '') {
 } else if(!isEmail($email)) {
 	echo '<div class="error_message">You have entered an invalid e-mail address. Please try again.</div>';
 	exit();
+} else {
+	echo '<div class="error_message">This form is temporarily unavailable. Please use the email link to the left.</div>';
+	exit();
 }
 
 if(trim($comments) == '') {
