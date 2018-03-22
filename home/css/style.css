@@ -493,6 +493,7 @@ header{
 	background:#474d5d;
 	padding:16px 22px;
 	display:inline-block;
+	border-radius:15px;
 }
 .bntDownload:hover{
 	background:#373d4c;
